@@ -48,7 +48,8 @@ galaxy_info:
   #  - vivid
   #  - wily
   
-  galaxy_tags: []
+  galaxy_tags: 
+    - system
     # List tags for your role here, one per line. A tag is
     # a keyword that describes and categorizes the role.
     # Users find roles by searching for tags. Be sure to
@@ -58,6 +59,7 @@ galaxy_info:
     # alphanumeric characters. Maximum 20 tags per role.
 
 dependencies: 
+    - { role: anarcher.volume }
     - { role: kunik.system-limits }
     - { role: anarcher.docker }
   # List your role dependencies here, one per line.
