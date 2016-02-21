@@ -1,9 +1,1 @@
 ---
-system_limits:
-  ulimits:
-      - root soft nofile 65536
-      - root hard nofile 65536
-filesystem:
-  mount: []
-hostname:
-docker:
